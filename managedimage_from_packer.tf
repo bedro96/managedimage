@@ -15,7 +15,7 @@ resource "azurerm_resource_group" "imgreporg" {
 }
 
 resource "azurerm_managed_disk" "blank_datadisk" {
-  name                 = "blank_8tb"
+  name                 = "blank_250GB"
   location             = "${var.location}"
   resource_group_name  = "${azurerm_resource_group.imgreporg.name}"
   storage_account_type = "Standard_LRS"
