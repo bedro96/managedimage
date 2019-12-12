@@ -1,4 +1,4 @@
 resourcegroup_name="test-imgrepo-rg"
 location="southeastasia"
-managed_image_name="imgtestwithdatadisk1"
-packer_os_managed_disk_id="/subscriptions/05be085b-86ea-4336-addc-38fd56051a9e/resourceGroups/mytfrg/providers/Microsoft.Compute/disks/PackerTemp-1576068357"
+managed_image_name="imgtestwithdatadisk20191212"
+packer_os_managed_disk_id="/subscriptions/31c88792-2b2b-4461-851d-fed39d0360f4/resourceGroups/test-basevm-rg/providers/Microsoft.Compute/disks/PackerTemp-1576133404"
